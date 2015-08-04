@@ -27,7 +27,7 @@
  
   </div>
 </div>
-<script type="text/javascript"><!--
+<script type="text/javascript">
     $('.filter-group:first').removeClass('hidden');
     $('a.list-group-item').on('click', function(){
         var group_id = $(this).attr('data-id');
@@ -39,6 +39,7 @@
             }
         }
     });
+
 $('#button-filter').on('click', function() {
 	filter = [];	
 	$('input[name^=\'filter\']:checked').each(function(element) {
@@ -46,4 +47,4 @@ $('#button-filter').on('click', function() {
 	});
 	location = '<?php echo $action; ?>&filter=' + filter.join(',');
 });
-//--></script> 
+</script>
