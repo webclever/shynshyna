@@ -1,2 +1,2 @@
 # shynshyna
-This is test message
+This project is created for a tire shop
