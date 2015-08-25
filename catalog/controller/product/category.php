@@ -177,7 +177,6 @@ class ControllerProductCategory extends Controller {
 			);
 
 			$product_total = $this->model_catalog_product->getTotalProducts($filter_data);
-            echo var_dump($product_total);
 
 			$results = $this->model_catalog_product->getProducts($filter_data);
 

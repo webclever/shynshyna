@@ -1,0 +1,35 @@
+2015-08-25 10:13:47 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Easy Blog Simple for oc2011+
+FILE: admin/controller/common/menu.php
+CODE: return $this->load->view('common/menu.tpl', $data);
+LINE: 216
+FILE: admin/view/template/common/menu.tpl
+CODE: <li id="system"><a class="parent"><i class="fa fa-cog fa-fw"></i> <span><?php echo $text_system; ?></span></a>
+LINE: 121
+FILE: admin/language/english/common/menu.php
+CODE: $_['text_user']                        = 'Users';
+LINE: 80
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php foreach ($informations as $information) { ?>
+LINE: 10
+FILE: catalog/controller/common/footer.php
+CODE: $data['informations'] = array();
+LINE: 28
+----------------------------------------------------------------
